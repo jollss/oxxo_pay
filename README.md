@@ -1,6 +1,6 @@
 # Cloyster
 
-<div style="text-align:center"><img src="https://img.pokemondb.net/artwork/vector/large/cloyster.png" width="250"/></div>
+<div style="text-align:right"><img src="https://img.pokemondb.net/artwork/vector/large/cloyster.png" width="250"/></div>
 
 cloyster es un Microserervicio para el proceso de pagos por medio de conekta.
 
