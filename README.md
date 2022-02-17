@@ -18,13 +18,13 @@ docker build -t image:version .
 
 Windows:
 ```
-docker run --rm -it --env-file=.env_example -v ${PWD}:/usr/src/app -p 5009:5000 --name cloyster  cloyster:ejmeplo
+docker run --rm -it --env-file=.env_example -v ${PWD}:/usr/src/app -p 5091:5000 --name cloyster  cloyster:ejmeplo
 ```
 *NIX:
 ```
-docker run --rm -it --env-file=.env_example -v $(pwd):/usr/src/app -p 5009:5000 --name cloyster  cloyster:ejmeplo
+docker run --rm -it --env-file=.env_example -v $(pwd):/usr/src/app -p 5091:5000 --name cloyster  cloyster:ejmeplo
 ```
-Comentarios:el .env_example remplazalo por .env para que no modifiques nada de los ejemplos y solo agrega en el gitignore el .env que utilices
+Comentarios:el .env_example remplazalo por .env para que no modifiques nada de los ejemplos
 ## Licencia
 
 Cura Deuda 2022
