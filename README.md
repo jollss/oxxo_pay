@@ -41,3 +41,7 @@ git tag  -a v1.0.0 -m "Version 1.0.0 oxxopay-conekta"
 ## Ver tag
 git tag muestra los tag existente
 git show versiontag y se mostrara el commit especifico y el comentario del tag
+## subir tags 
+git push --tags
+
+##
