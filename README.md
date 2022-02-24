@@ -28,3 +28,16 @@ Comentarios:el .env_example remplazalo por .env para que no modifiques nada de l
 ## Licencia
 
 Cura Deuda 2022
+
+# tags version semantica
+Estructura
+primer digito es la version en la que se lanza un realese o a prod(version mayor)
+segundo digito se añade cierta funcionabilidad o neuva libreria
+tercer digito hace referencia a los fix que se agregan o correccion de errores
+## Crear un tag 
+git tag  -a v1.0.0 -m "Version 1.0.0 oxxopay-conekta"
+## Referencia a un commit
+ git tag -a versiondetag el hashtag -m "tu comentario del tag"
+## Ver tag
+git tag muestra los tag existente
+git show versiontag y se mostrara el commit especifico y el comentario del tag
