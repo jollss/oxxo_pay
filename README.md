@@ -36,7 +36,7 @@ segundo digito se añade cierta funcionabilidad o neuva libreria
 tercer digito hace referencia a los fix que se agregan o correccion de errores
 ## Crear un tag 
 git tag  -a v1.0.0 -m "Version 1.0.0 oxxopay-conekta"
-## Referencia a un commit
+## Referencia al ultimo  commit
  git tag -a versiondetag el hashtag -m "tu comentario del tag"
 ## Ver tag
 git tag muestra los tag existente
